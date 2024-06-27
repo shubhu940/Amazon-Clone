@@ -1,0 +1,521 @@
+.RegisterLoginSection {
+  background-image: url('../public/background.jpg');
+  background-size: cover;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.icons {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  height: 30%;
+  align-items: center;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+
+h2 {
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.form-label {
+  font-weight: bold;
+  font-family: Poppins;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-family: Poppins;
+}
+
+.form-check-input {
+  margin-right: 10px;
+}
+
+.loginbtn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+p {
+  padding-top: 8px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+p a {
+  text-decoration: none;
+  color: #000;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.forgotpass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-family: Poppins;;
+}
+.forgotpass a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header{
+  background: url('../public/ImagesUse/mango.jpg') no-repeat;
+  position: relative;
+  min-height: 100vh;
+ 
+}
+.header-content{
+position: absolute;
+display: flex;
+flex-direction: column;
+gap: 40px;
+max-width: 50%;
+color: rgb(16, 16, 16);
+bottom: 10%;
+animation: fadeIn 3s;
+}
+.header-content h2{
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 60px;
+}
+.header-content button{
+border: none;
+width: 100px;
+padding: 10px;
+border-radius: 20px;
+font-size: medium;
+cursor: pointer;
+color: #747474;
+}
+
+/* Container styles */
+.ForgotPasswordSection {
+  width: 10%;
+  max-width: 400px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.forgotpassCss{
+  width: 50%;
+ margin-left: 25%;
+}
+/* Form wrapper styles */
+.forgotpassCss {
+  text-align: center;
+}
+
+.forgotpassCss h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.forgotpassCss input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.forgotpassCss button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.forgotpassCss button:hover {
+  background-color: #218838;
+}
+
+.message {
+  margin-top: 15px;
+  color: #555;
+}
+
+/* Responsive styles */
+@media (max-width: 400px) {
+  .ForgotPasswordSection {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .forgotpassCss h2 {
+    font-size: 22px;
+  }
+
+  .forgotpassCss input {
+    font-size: 14px;
+  }
+
+  .forgotpassCss button {
+    font-size: 14px;
+  }
+}
+
+/* MyNavbar.css */
+
+.navbar {
+  background-color: #8B4513 !important; /* Set your custom color */
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd700 !important; /* Gold color on hover */
+}
+
+.navbar-text {
+  margin-right: 15px;
+}
+
+.cart-icon {
+  color: #ffffff;
+}
+
+.cart-icon sup {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+@media (max-width: 576px) {
+  .navbar-text {
+    font-size: 14px;
+  }
+ 
+}
+
+
+/* CartPage.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cart-item {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item h5 {
+  margin-bottom: 10px;
+}
+
+.cart-item img {
+  max-width: 100px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.cart-item .item-details {
+  flex: 1;
+}
+
+.cart-item .item-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-item .item-actions button {
+  margin: 5px 0;
+}
+
+.cart-total {
+  text-align: right;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .cart-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cart-item img {
+    margin-bottom: 10px;
+  }
+
+  .cart-item .item-actions {
+    flex-direction: row;
+  }
+
+  .cart-item .item-actions button {
+    margin: 0 5px;
+  }
+}
+/* Footer Styles */
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 40px 0;
+  text-align: left;
+ 
+}
+
+.FooterSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+ .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  max-width: 300px;
+  margin: 20px;
+}
+
+.column h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 10px;
+}
+
+.column ul li a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.column ul li a:hover {
+  color: #fff;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.socialIcons a {
+  color: #bbb;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.socialIcons a:hover {
+  color: #fff;
+}
+
+.bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  margin-top: 40px;
+}
+
+.bottom p {
+  margin: 0;
+  color: #bbb;
+}
+
+.admin-layout {
+  display: flex;
+  height: 100vh;
+  background-color: white;
+}
+
+.sidebar {
+  margin-top: 50px;
+  width: 250px;
+  background-color: #006180;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar .logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar .nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar .nav li {
+  display: flex;
+  width: 314px;
+  height: 55px;
+  padding: 10px 25px;
+  align-items: center;
+  gap: 10px;
+  font-family: "DM Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sidebar .nav a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  padding: 5px 10px;
+}
+
+.sidebar .nav a:hover {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+  overflow: auto;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.AdminUsersSection h3 {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.AdminUsers input::placeholder {
+  color: black;
+}
+
+.AdminUsers input {
+  width: 337px;
+  border: none;
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.AdminUsers {
+  display: flex;
+  width: 337px;
+  height: 44px;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: rgba(0, 115, 151, 0.03);
+}
+
+table th {
+  background-color: #d4eff8;
+}
+table tbody tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+table tbody tr:hover {
+  background-color: rgba(0, 115, 151, 0.03);
+}
+.AdminTaskToUserSection h3 {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.AdminRoleFormSection h3 {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.AdminTaskToUserForm label {
+  padding-bottom: 20px;
+}
+.AdminTaskToUserForm button {
+  margin-bottom: 20px;
+  background-color: rgba(0, 115, 151, 0.03);
+  border-radius: 8px;
+}
+.admin-layout a {
+  text-decoration: none;
+}
